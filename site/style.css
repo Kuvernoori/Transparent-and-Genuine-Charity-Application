@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+}
+
+.container {
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  max-width: 420px;
+  width: 100%;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #222;
+}
+
+header p {
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.balance-card,
+.donate-card,
+.refresh-card {
+  margin-bottom: 25px;
+}
+
+.balance {
+  font-size: 2rem;
+  color: #e76f51;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
+
+input[type="number"] {
+  padding: 12px;
+  font-size: 1rem;
+  width: 80%;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px 20px;
+  background-color: #2a9d8f;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #21867a;
+}
