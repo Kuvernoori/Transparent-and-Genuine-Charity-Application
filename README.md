@@ -16,7 +16,6 @@ This is a decentralized donation application (DApp) built on Ethereum. Users can
 - **Web3.js** – Ethereum JavaScript API for frontend interaction  
 - **HTML/CSS/JavaScript** – frontend  
 - **Git/GitHub** – version control
-
 - 
 ## 📝 Smart Contract Overview
 
