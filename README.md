@@ -1,13 +1,45 @@
-# Sample Hardhat Project
+# 💸 Ethereum Donation DApp
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This is a decentralized donation application (DApp) built on Ethereum. Users can send Ether (ETH) to support a cause, track total donations, and the owner can withdraw funds after reaching the target goal.
 
-Try running some of the following tasks:
+## 🚀 Features
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+- Accepts ETH donations from any address
+- Tracks how much each user has donated
+- Shows total funds raised and donation goal
+- Withdraw function accessible only to the contract owner
+- Events emitted on donation and withdrawal for transparency
+
+## 🛠️ Tech Stack
+
+- **Solidity** – smart contract language  
+- **Web3.js** – Ethereum JavaScript API for frontend interaction  
+- **HTML/CSS/JavaScript** – frontend  
+- **Git/GitHub** – version control
+
+- 
+## 📝 Smart Contract Overview
+
+- `donate()` — send ETH to contract  
+- `withdraw()` — owner withdraws funds if the goal is reached  
+- `getBalance()` — current contract balance  
+- `donations(address)` — returns total donated by address  
+- `goalReached()` — returns true if goal is reached  
+- Events: `DonationReceived`, `FundsWithdrawn`
+
+## ⚙️ Getting Started
+
+1. Clone the repository:
+
 ```
+git clone https://github.com/kuvernoori/Transparent-and-Genuine-Charity-Application
+.git
+cd Transparent-and-Genuine-Charity-Application
+
+```
+
+2. Open index.html in your browser using a local server (e.g., Live Server in VS Code).
+
+3. Connect MetaMask and interact with the contract.
+
+
